@@ -28,3 +28,4 @@ credentials = "tmpfs"
 
 [publish.aws.environments.production]
 bucket = "releases.uwe.app"
+keep-remote = true
