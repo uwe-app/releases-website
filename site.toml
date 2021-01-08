@@ -1,14 +1,17 @@
 lang = "en"
-host = "localhost"
+host = "releases.uwe.app"
+
 [dependencies."std::core"]
 version = "~4.1.6"
+apply = { styles = ["**"] }
 
-[dependencies."std::core".apply]
-styles = ["**"]
 [page.meta]
-description = "Website"
-keywords = "Vanilla, Website"
+description = "UWE software releases"
+keywords = "Web Editor, Release, Software"
 
-[fluent]
-fallback = "en"
-shared = "core.ftl"
+[publish.aws]
+region = "ap-southeast-1"
+credentials = "tmpfs"
+
+[publish.aws.environments.production]
+bucket = "releases.uwe.app"

@@ -1,3 +1,3 @@
-# Default
+## Releases Website
 
-Default website blueprint.
+Website for [releases.uwe.app](https://releases.uwe.app).
