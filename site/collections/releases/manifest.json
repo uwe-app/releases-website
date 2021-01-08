@@ -1,19 +1,35 @@
 {
   "versions": {
-    "0.42.14": {
+    "0.42.15": {
       "linux": {
-        "uvm": "f785cebbb0a1b6187d1904d2001da3b3d9de8fde77ae0675ee749d4f18922b3e",
-        "upm": "4a2a734a26ce0f92239d311121705cbdd895d2dbfdf2551486bca63091b8cf32",
-        "upm-shim": "d5481f02b818716c6f4ebb59396ec96ec0eaabf6a4dcf00a330f7fe515b6fef5",
-        "uwe": "890fb5a0e169bf70b65b3671c46c70923b915dce8ad275df175175fa9c42adf4",
-        "uwe-shim": "4ccda8430f07e64d6ad7a6cffe6632dbefe26e7b2c0520dd51bf624cc6f778f6"
+        "upm-shim": "5764035e28b5549059dd5460d7f23a0053b5fa7a2196b0f07466ee0f195b938f",
+        "uvm": "b6a7c7c3d27ee5a6042aa1d99a9015547790ec0c818e5490f4ff04a972295c78",
+        "uwe-shim": "532a325ffeac87577289f7ec42d701e553493039e00b4c9a1a6ea4049e5b0d52",
+        "uwe": "0ea22877bc4fc069357e1a9b6d16db7f4b032b774fe68c355b921994b05bcca2",
+        "upm": "ff884cce78351d57d19b5f4afcf3c41e492c40bdabbd1c6445012d8a6d3c3394"
       },
       "macos": {
-        "upm": "b5256fd35ac1a3343c7b11f3c2c6805c62a783fc774e351f6c7015f09e1a5b0a",
+        "upm-shim": "3aff9bbd4274ae76cb29294600579c0caf8b0e37efe2749bf404db8acb0a6289",
+        "uwe-shim": "e64fa0e8131f740d7aeaa5c0fb154fb9ab17ccee41899e81d11e2531b8829a12",
+        "uwe": "5c4d2bea2a58e4d4ff376ad84445add72064b47a0984f114ed6c7dd641049e81",
+        "uvm": "29a29686121c426c0025fc921340973ec9165a5170650a060cfb320a3089ce80",
+        "upm": "e03e55f8f72ba92ac4293fc0f3db04aaf30fa9c7444f50bb050582ad5ae11fab"
+      }
+    },
+    "0.42.14": {
+      "linux": {
+        "uwe": "890fb5a0e169bf70b65b3671c46c70923b915dce8ad275df175175fa9c42adf4",
+        "uwe-shim": "4ccda8430f07e64d6ad7a6cffe6632dbefe26e7b2c0520dd51bf624cc6f778f6",
+        "uvm": "f785cebbb0a1b6187d1904d2001da3b3d9de8fde77ae0675ee749d4f18922b3e",
+        "upm": "4a2a734a26ce0f92239d311121705cbdd895d2dbfdf2551486bca63091b8cf32",
+        "upm-shim": "d5481f02b818716c6f4ebb59396ec96ec0eaabf6a4dcf00a330f7fe515b6fef5"
+      },
+      "macos": {
         "uwe": "ad2d5d9072a5971176ce6ba1564b13cfe3bbaf9579d54c2053a790d27b5891af",
         "uwe-shim": "295cb54f8cd9cf001e6885d37e025e47261523dade181bc466aa50c7a871959d",
+        "upm-shim": "d3951db866c28f181e73ba635bc582662f71f779bed57f4eaf60409c15e5efea",
         "uvm": "81f833649cd80af79f50e40ffbe7b10c73f4acef140d54f9d3b0933f9b2cde9d",
-        "upm-shim": "d3951db866c28f181e73ba635bc582662f71f779bed57f4eaf60409c15e5efea"
+        "upm": "b5256fd35ac1a3343c7b11f3c2c6805c62a783fc774e351f6c7015f09e1a5b0a"
       }
     }
   }
