@@ -9,6 +9,19 @@ apply = { styles = ["**"] }
 description = "UWE software releases"
 keywords = "Web Editor, Release, Software"
 
+[db.load.releases]
+type = "json"
+provider = "files"
+from = "collections/releases"
+
+[db.load.releases.on.all]
+key = "*"
+
+[pages."index.md".query]
+name = "releases"
+index = "all"
+include-docs = true
+
 [publish.aws]
 region = "ap-southeast-1"
 credentials = "tmpfs"
