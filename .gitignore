@@ -1,0 +1,5 @@
+/build
+/package.tar.xz
+node_modules
+*.bak
+*.zip
