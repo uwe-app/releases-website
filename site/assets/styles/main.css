@@ -27,6 +27,7 @@ pre {
 .binary > :first-child {
   min-width: 6em;
   flex: 0;
+  height: 36px;
 }
 
 .binary > :first-child > * {
