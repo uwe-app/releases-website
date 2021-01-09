@@ -1,52 +1,99 @@
 {
   "latest": {
-    "version": "0.42.18",
+    "version": "0.42.19",
     "linux": {
       "upm": {
-        "digest": "a39ad3935b46ea723fbe87f0284096772bd433fc65b0182009c1379ec4448aad",
-        "size": 9737088
+        "digest": "447ae6f9256c04a331f3ffd5b9074864addc3d16383cb7b6657689913df13590",
+        "size": 9741248
       },
       "upm-shim": {
-        "digest": "10d824f6c2f99754cce0a92bf3f728d49979bfef6a4331e6e20f0cb9333614f7",
+        "digest": "7813d51a8f1a04a8e51ae2f89bff1fbb1816f87fe4cb5371385f8fd4541a1c9f",
         "size": 1416312
       },
       "uvm": {
-        "digest": "0c078ca51fbefeb6b7bdde403999206dce31a145de319369b17a76b1f214694e",
+        "digest": "a7283978263827f01e564a08dbd1e39b01924b5559b18a1065eb8e33049f5247",
         "size": 6902048
       },
       "uwe": {
-        "digest": "0f5dd79662cc4b2dd2977ffec974d641d4861d00cd80568739c43202f7d554fb",
-        "size": 17643616
+        "digest": "3ebb998268045fc21d52eda4b79daf8985505c241facc01f620fa32ebd784434",
+        "size": 17643520
       },
       "uwe-shim": {
-        "digest": "b5ac96e5a837b724e9f5805548fb843428281af8c75dc4e8a351e4297674451c",
+        "digest": "57276fb61a37e57728323ce4bd6f97299e3a55ce275fddc5aa706fc2ef8fcb1e",
         "size": 1416312
       }
     },
     "macos": {
       "upm": {
-        "digest": "ff22eb58f15542667e92c317d21cf166979f5d55202407d23a8e1efdffebf934",
-        "size": 8242668
+        "digest": "8578c1c21ca30aba8d4f8834f7d62a3d352dfa9086d791d01d513bd8e1ae670e",
+        "size": 8246772
       },
       "upm-shim": {
-        "digest": "0cec3f70bcfaa063305e7bc961f8ec0b682992ef4628b7d7009f79bc784e3f5d",
+        "digest": "747f7c1d43c4d24c40192388ba785f95d8a27fe10b27ef34530607eabf535cc2",
         "size": 1206976
       },
       "uvm": {
-        "digest": "6eb40db809a5746073cc1dfd47a9f711165e631986a5e89a260ca16ff52aad31",
+        "digest": "b57540ee4f4c28087893a5cabf33b013a6d9cc30cea515ec3068ac652b784c0e",
         "size": 5625900
       },
       "uwe": {
-        "digest": "eafed4b9f1de262835195da8456d545f1e5ae0370a6d50d503f32557160d5714",
-        "size": 15437412
+        "digest": "a7ea3889b909fc03082fceeca98cf21157cf7cbb0650de101bb9f666ca2b3d28",
+        "size": 15441500
       },
       "uwe-shim": {
-        "digest": "6a3204de796255c1615a9d51df1342bdce5c99dc6c0b382e1ea4399098035dad",
+        "digest": "eeb3f528c720134822c82572da5cdcda9168baaf6f068dfa85d04d5bd9d511bc",
         "size": 1206976
       }
     }
   },
   "versions": [
+    {
+      "version": "0.42.18",
+      "linux": {
+        "upm": {
+          "digest": "a39ad3935b46ea723fbe87f0284096772bd433fc65b0182009c1379ec4448aad",
+          "size": 9737088
+        },
+        "upm-shim": {
+          "digest": "10d824f6c2f99754cce0a92bf3f728d49979bfef6a4331e6e20f0cb9333614f7",
+          "size": 1416312
+        },
+        "uvm": {
+          "digest": "0c078ca51fbefeb6b7bdde403999206dce31a145de319369b17a76b1f214694e",
+          "size": 6902048
+        },
+        "uwe": {
+          "digest": "0f5dd79662cc4b2dd2977ffec974d641d4861d00cd80568739c43202f7d554fb",
+          "size": 17643616
+        },
+        "uwe-shim": {
+          "digest": "b5ac96e5a837b724e9f5805548fb843428281af8c75dc4e8a351e4297674451c",
+          "size": 1416312
+        }
+      },
+      "macos": {
+        "upm": {
+          "digest": "ff22eb58f15542667e92c317d21cf166979f5d55202407d23a8e1efdffebf934",
+          "size": 8242668
+        },
+        "upm-shim": {
+          "digest": "0cec3f70bcfaa063305e7bc961f8ec0b682992ef4628b7d7009f79bc784e3f5d",
+          "size": 1206976
+        },
+        "uvm": {
+          "digest": "6eb40db809a5746073cc1dfd47a9f711165e631986a5e89a260ca16ff52aad31",
+          "size": 5625900
+        },
+        "uwe": {
+          "digest": "eafed4b9f1de262835195da8456d545f1e5ae0370a6d50d503f32557160d5714",
+          "size": 15437412
+        },
+        "uwe-shim": {
+          "digest": "6a3204de796255c1615a9d51df1342bdce5c99dc6c0b382e1ea4399098035dad",
+          "size": 1206976
+        }
+      }
+    },
     {
       "version": "0.42.17",
       "linux": {
