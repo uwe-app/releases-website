@@ -17,6 +17,7 @@ uvm update
 ```
 
 {{#with result.[0]}}
+
 {{#with this.value.latest}}
 
 ## Latest {{this.version}}
@@ -26,15 +27,17 @@ uvm update
 
 {{/with}}
 
+{{#with this.value.versions}}
 ## Versions
 
-{{#each this.value.versions}}
+{{#each this}}
 <details>
 <summary>{{this.version}}</summary>
 {{>platform items=this.macos title="Mac"}}
 {{>platform items=this.linux title="Linux"}}
 </details>
 {{/each}}
+{{/with}}
 
 {{/with}}
 
