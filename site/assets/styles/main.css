@@ -20,10 +20,15 @@ pre {
 
 .binary {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  height: 3em;
 }
 
 .binary > :first-child {
   min-width: 6em;
   flex: 0;
+}
+
+.binary > :first-child > * {
+  line-height: 1;
 }

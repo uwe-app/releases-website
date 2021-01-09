@@ -1,7 +1,10 @@
 <h3>{{this.title}}</h3>
 {{#each this.items}}
 <div class="binary">
-<p>{{@key}}</p>
+<div>
+<div>{{@key}}</div>
+<small>{{this.size}}</small>
+</div>
 <pre><code>{{this.digest}}</code></pre>
 </div>
 {{/each}}
