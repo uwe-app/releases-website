@@ -1,52 +1,99 @@
 {
   "latest": {
-    "version": "0.42.19",
+    "version": "0.42.20",
     "linux": {
       "upm": {
-        "digest": "447ae6f9256c04a331f3ffd5b9074864addc3d16383cb7b6657689913df13590",
-        "size": 9741248
+        "digest": "4001b90d1162ea8c8dfe4378bd980797c08222866178e55b13000a3289f8f546",
+        "size": 9737120
       },
       "upm-shim": {
-        "digest": "7813d51a8f1a04a8e51ae2f89bff1fbb1816f87fe4cb5371385f8fd4541a1c9f",
-        "size": 1416312
+        "digest": "442cec89533ac5a6d4f25d3cc3556670cf1df5f468814380c09d9335802ece31",
+        "size": 1414872
       },
       "uvm": {
-        "digest": "a7283978263827f01e564a08dbd1e39b01924b5559b18a1065eb8e33049f5247",
+        "digest": "95e9f6478e7f35db13123638b1a7ab1bb2201ca4326d550a5e6c2f9eba0e3b55",
         "size": 6902048
       },
       "uwe": {
-        "digest": "3ebb998268045fc21d52eda4b79daf8985505c241facc01f620fa32ebd784434",
-        "size": 17643520
+        "digest": "4d2b2385fd236df4e898c0f5408c6369a840549da906ab741a193fa54e483d97",
+        "size": 17643648
       },
       "uwe-shim": {
-        "digest": "57276fb61a37e57728323ce4bd6f97299e3a55ce275fddc5aa706fc2ef8fcb1e",
-        "size": 1416312
+        "digest": "9582bafbb1526951c2746e4d1701b43dcc073d0d5c93cdb9886bde866611f2f6",
+        "size": 1414872
       }
     },
     "macos": {
       "upm": {
-        "digest": "8578c1c21ca30aba8d4f8834f7d62a3d352dfa9086d791d01d513bd8e1ae670e",
-        "size": 8246772
+        "digest": "fd0172e0191c4e92e41d6526bc2d7389bbb5b7a52c0548823db9ab4bc62083ff",
+        "size": 8242652
       },
       "upm-shim": {
-        "digest": "747f7c1d43c4d24c40192388ba785f95d8a27fe10b27ef34530607eabf535cc2",
-        "size": 1206976
+        "digest": "0ff4a4bd6920aa21a346bb1d28617e8f18ff347123b9f2a05e59dd68259ff392",
+        "size": 1206960
       },
       "uvm": {
-        "digest": "b57540ee4f4c28087893a5cabf33b013a6d9cc30cea515ec3068ac652b784c0e",
-        "size": 5625900
+        "digest": "90ce048fe72391372b7b358424a596e51e63fe05c655f21b9d10bde766fafadf",
+        "size": 5625892
       },
       "uwe": {
-        "digest": "a7ea3889b909fc03082fceeca98cf21157cf7cbb0650de101bb9f666ca2b3d28",
-        "size": 15441500
+        "digest": "ccd0e47f13172c17327a08b96f0f63e08e736f576d99d837f76191898d5c04a1",
+        "size": 15433300
       },
       "uwe-shim": {
-        "digest": "eeb3f528c720134822c82572da5cdcda9168baaf6f068dfa85d04d5bd9d511bc",
-        "size": 1206976
+        "digest": "46bdeb5dc59c7e7cca74a5e965e4bf1e89cf1be15892adc0a35c1a49a6c1d1ab",
+        "size": 1206960
       }
     }
   },
   "versions": [
+    {
+      "version": "0.42.19",
+      "linux": {
+        "upm": {
+          "digest": "447ae6f9256c04a331f3ffd5b9074864addc3d16383cb7b6657689913df13590",
+          "size": 9741248
+        },
+        "upm-shim": {
+          "digest": "7813d51a8f1a04a8e51ae2f89bff1fbb1816f87fe4cb5371385f8fd4541a1c9f",
+          "size": 1416312
+        },
+        "uvm": {
+          "digest": "a7283978263827f01e564a08dbd1e39b01924b5559b18a1065eb8e33049f5247",
+          "size": 6902048
+        },
+        "uwe": {
+          "digest": "3ebb998268045fc21d52eda4b79daf8985505c241facc01f620fa32ebd784434",
+          "size": 17643520
+        },
+        "uwe-shim": {
+          "digest": "57276fb61a37e57728323ce4bd6f97299e3a55ce275fddc5aa706fc2ef8fcb1e",
+          "size": 1416312
+        }
+      },
+      "macos": {
+        "upm": {
+          "digest": "8578c1c21ca30aba8d4f8834f7d62a3d352dfa9086d791d01d513bd8e1ae670e",
+          "size": 8246772
+        },
+        "upm-shim": {
+          "digest": "747f7c1d43c4d24c40192388ba785f95d8a27fe10b27ef34530607eabf535cc2",
+          "size": 1206976
+        },
+        "uvm": {
+          "digest": "b57540ee4f4c28087893a5cabf33b013a6d9cc30cea515ec3068ac652b784c0e",
+          "size": 5625900
+        },
+        "uwe": {
+          "digest": "a7ea3889b909fc03082fceeca98cf21157cf7cbb0650de101bb9f666ca2b3d28",
+          "size": 15441500
+        },
+        "uwe-shim": {
+          "digest": "eeb3f528c720134822c82572da5cdcda9168baaf6f068dfa85d04d5bd9d511bc",
+          "size": 1206976
+        }
+      }
+    },
     {
       "version": "0.42.18",
       "linux": {
