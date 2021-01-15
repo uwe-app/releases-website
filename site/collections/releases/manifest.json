@@ -1,54 +1,104 @@
 {
   "latest": {
-    "version": "0.43.2",
+    "version": "0.43.3",
+    "published": null,
     "linux": {
       "upm": {
-        "digest": "8e384f50e72dd8b56fc5223ec5c63dd43da3c20a0ca416cea3a4959a696ae7db",
-        "size": 11597600
+        "digest": "e20b770b1e59a33d329076ff3720676f6278c10bdf396280020ee49e1766a685",
+        "size": 11601728
       },
       "upm-shim": {
-        "digest": "1d878029fd786545332729da839699999a9ee2c06cf1fda173aedc73d7b233c8",
-        "size": 1436072
+        "digest": "870dfe09fdc95a9a40a4101a80b70b36d34ad4364f11b189a8330cc4de123d0f",
+        "size": 1466776
       },
       "uvm": {
-        "digest": "26e2957a4a74c61f49fa1ec74c1f8af9220bdc97bf797f109afecbbb4baa05ee",
-        "size": 7544384
+        "digest": "6f34ba814f5568e93e54192590569a9335b15951e51f5e8f4477dc9dfc637c80",
+        "size": 7575424
       },
       "uwe": {
-        "digest": "c6603aaabb16a91f17334a3c949c196955432fd89caee31bb3d8615709555259",
-        "size": 17652800
+        "digest": "26370b82d47c8e9093ccd6bab80d2555eab49cebf4ad7a763cb31d8262140853",
+        "size": 17656928
       },
       "uwe-shim": {
-        "digest": "3d9e9614e0a74a6a893ffbe7dfaf95e3257aa1f2d5ca23a023edad1b4e10720a",
-        "size": 1436072
+        "digest": "3cecd434550362bd217a3cf404944efc78b5d371ddf8c3996b5bcbcc027e419e",
+        "size": 1466776
       }
     },
     "macos": {
       "upm": {
-        "digest": "f1d47ae990ffeaaf04fd2cc3f9e2057addee82708342db77280ebba9b89d3d5d",
-        "size": 9987948
+        "digest": "3c0a9c59dfe26389d2560cc26344967d35791fecb9723643dea7d9be6e7b95ff",
+        "size": 9992044
       },
       "upm-shim": {
-        "digest": "562b9e5f254c263485258de8bf1b934eea5f46c956c3bb0096485e751b9bfb4f",
-        "size": 1227728
+        "digest": "412b1583fbe5ada1a9b97cf878c7b97edd0f7b3f33b5ad8f51717383176c0f70",
+        "size": 1252480
       },
       "uvm": {
-        "digest": "8d93f38f29800afa69aee2625fa838031b1ec35364a0418d131670c97baa6ca4",
-        "size": 6233444
+        "digest": "c229e08cb1e1a2b85ae773c7c6d7539e0d50b98f70b5af9c281e2b7f93dc4075",
+        "size": 6262364
       },
       "uwe": {
-        "digest": "1aad6d79213f698adbcb5d8aa1002a922f3c3292e07f1f4758ed5ffee75576e1",
-        "size": 15425212
+        "digest": "6898be1aa4669f4e27f8fcfbefcabe770c138fdbf57c90148c145cb2a8ee676a",
+        "size": 15429332
       },
       "uwe-shim": {
-        "digest": "cf4a96682585a81c8de34f36da3932e75d492e495d289b55e30383388c8e607b",
-        "size": 1227728
+        "digest": "ff784ef1ecb2bd05d2b6e40c285ac93fd5c0e809ccbcabb2a63035d9b4a4efe1",
+        "size": 1252480
       }
     }
   },
   "versions": [
     {
+      "version": "0.43.2",
+      "published": "2021-01-15T03:29:27.931134178Z",
+      "linux": {
+        "upm": {
+          "digest": "8e384f50e72dd8b56fc5223ec5c63dd43da3c20a0ca416cea3a4959a696ae7db",
+          "size": 11597600
+        },
+        "upm-shim": {
+          "digest": "1d878029fd786545332729da839699999a9ee2c06cf1fda173aedc73d7b233c8",
+          "size": 1436072
+        },
+        "uvm": {
+          "digest": "26e2957a4a74c61f49fa1ec74c1f8af9220bdc97bf797f109afecbbb4baa05ee",
+          "size": 7544384
+        },
+        "uwe": {
+          "digest": "c6603aaabb16a91f17334a3c949c196955432fd89caee31bb3d8615709555259",
+          "size": 17652800
+        },
+        "uwe-shim": {
+          "digest": "3d9e9614e0a74a6a893ffbe7dfaf95e3257aa1f2d5ca23a023edad1b4e10720a",
+          "size": 1436072
+        }
+      },
+      "macos": {
+        "upm": {
+          "digest": "f1d47ae990ffeaaf04fd2cc3f9e2057addee82708342db77280ebba9b89d3d5d",
+          "size": 9987948
+        },
+        "upm-shim": {
+          "digest": "562b9e5f254c263485258de8bf1b934eea5f46c956c3bb0096485e751b9bfb4f",
+          "size": 1227728
+        },
+        "uvm": {
+          "digest": "8d93f38f29800afa69aee2625fa838031b1ec35364a0418d131670c97baa6ca4",
+          "size": 6233444
+        },
+        "uwe": {
+          "digest": "1aad6d79213f698adbcb5d8aa1002a922f3c3292e07f1f4758ed5ffee75576e1",
+          "size": 15425212
+        },
+        "uwe-shim": {
+          "digest": "cf4a96682585a81c8de34f36da3932e75d492e495d289b55e30383388c8e607b",
+          "size": 1227728
+        }
+      }
+    },
+    {
       "version": "0.43.1",
+      "published": "2021-01-15T03:29:27.931163911Z",
       "linux": {
         "upm": {
           "digest": "2009c5f870bfea03a495e7cb01afdc622de70bc659f16aa14e7e412b4bcc9494",
@@ -96,6 +146,7 @@
     },
     {
       "version": "0.43.0",
+      "published": "2021-01-15T03:29:27.931168333Z",
       "linux": {
         "upm": {
           "digest": "5bd4d4a61d3c9f22bec79b92af824da011903925197bd8ac962e27869ba038e6",
@@ -143,6 +194,7 @@
     },
     {
       "version": "0.42.22",
+      "published": "2021-01-15T03:29:27.931172095Z",
       "linux": {
         "upm": {
           "digest": "bd01a16527a5971d5c163225fb72d60bc51f52eee1ca626ab29710ae9a578e5f",
@@ -190,6 +242,7 @@
     },
     {
       "version": "0.42.21",
+      "published": "2021-01-15T03:29:27.931175695Z",
       "linux": {
         "upm": {
           "digest": "6cecd099197ae9778d2b3f2d5101b07c0f399c82abeb70fdb2863095c5a1e257",
@@ -237,6 +290,7 @@
     },
     {
       "version": "0.42.20",
+      "published": "2021-01-15T03:29:27.931297920Z",
       "linux": {
         "upm": {
           "digest": "4001b90d1162ea8c8dfe4378bd980797c08222866178e55b13000a3289f8f546",
@@ -284,6 +338,7 @@
     },
     {
       "version": "0.42.19",
+      "published": "2021-01-15T03:29:27.931303516Z",
       "linux": {
         "upm": {
           "digest": "447ae6f9256c04a331f3ffd5b9074864addc3d16383cb7b6657689913df13590",
@@ -331,6 +386,7 @@
     },
     {
       "version": "0.42.18",
+      "published": "2021-01-15T03:29:27.931307155Z",
       "linux": {
         "upm": {
           "digest": "a39ad3935b46ea723fbe87f0284096772bd433fc65b0182009c1379ec4448aad",
@@ -378,6 +434,7 @@
     },
     {
       "version": "0.42.17",
+      "published": "2021-01-15T03:29:27.931310696Z",
       "linux": {
         "upm": {
           "digest": "6194b6e414d41e589b5aced589d970b49e710f866c7f5365e47cb8284cda8151",
