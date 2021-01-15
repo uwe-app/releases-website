@@ -19,11 +19,13 @@ uvm update
 {{#with result.[0]}}
 
 {{#with this.value.latest}}
-
 ## Latest {{this.version}}
+{{#if this.published}}
+<small>Published on {{> published datetime=this.published}}</small>
+{{/if}}
 
-{{>platform items=this.macos title="Mac"}}
-{{>platform items=this.linux title="Linux"}}
+{{> platform items=this.macos title="Mac"}}
+{{> platform items=this.linux title="Linux"}}
 
 {{/with}}
 
@@ -33,8 +35,13 @@ uvm update
 {{#each this}}
 <details>
 <summary>{{this.version}}</summary>
-{{>platform items=this.macos title="Mac"}}
-{{>platform items=this.linux title="Linux"}}
+{{#if this.published}}
+<small>Published on {{> published datetime=this.published}}</small>
+{{/if}}
+
+{{> platform items=this.macos title="Mac"}}
+{{> platform items=this.linux title="Linux"}}
+
 </details>
 {{/each}}
 {{/with}}
