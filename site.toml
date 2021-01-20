@@ -24,7 +24,7 @@ include-docs = true
 
 [publish.aws]
 region = "ap-southeast-1"
-credentials = "tmpfs"
+credentials = "uwe"
 
 [publish.aws.environments.production]
 bucket = "releases.uwe.app"
