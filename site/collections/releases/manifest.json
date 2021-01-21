@@ -1,50 +1,51 @@
 {
   "latest": {
-    "version": "0.43.6",
-    "published": "2021-01-20T10:20:35.794604627Z",
+    "version": "0.44.0",
+    "published": "2021-01-21T13:41:19.889124870Z",
     "linux": {
       "upm": {
-        "digest": "ee2d0ec7ba064ccd4933cb21ec83c2c5995d23ea4ed23fd3efdbf880d746ec78",
-        "size": 12172160
+        "digest": "e6790df1a98e3a606ba4571da5ce5ff2d918d448a93cb2ffaee3cc0621a2f9a8",
+        "size": 11721664
       },
       "upm-shim": {
-        "digest": "d3dd241dce17fc34286d0da108109ad086d635bb5ea6343af1561463c1b28f74",
-        "size": 1474072
+        "digest": "06cbb8c6e36ae181d2a29ae01a1cb971364aa620b094a5a15c2c355c50c28a97",
+        "size": 1926376
       },
       "uvm": {
-        "digest": "36c6121ed34cb16aef01fbaf178488eee5bccfa18ad2000a3ec28e94f0b49ace",
-        "size": 7638656
+        "digest": "d226413ad74228b9dd645403aad29bf1a164d7b5f9446b1ab5564a3d036b34c1",
+        "size": 7690912
       },
       "uwe": {
-        "digest": "23451cb940ec4838d5a73454b362b267aeaff2fd93189d6e6f0965a5b4b21c28",
-        "size": 18304096
+        "digest": "4504cdd1fa76ec97ac62e38c0fe9080638180c46bd45ba482f72a40450fcc44c",
+        "size": 17831808
       },
       "uwe-shim": {
-        "digest": "a0f7daf0249ec095a96b82803c379c77163aad4f2e1c3369f9bd85e8286f79ad",
-        "size": 1474072
+        "digest": "b14f73e1c34dd2fea47f776879705276bfd1ef61ad862fc2781c611d074b8918",
+        "size": 1926376
       }
     },
     "macos": {
       "upm": {
-        "digest": "36a990803e2f177768d0f214e493f9993d4b5794666702220648e32d4465d04c",
-        "size": 10481548
+        "digest": "0ee7931f4cefecd4545aeee3ebcc90ab74dce03336870d138ed57f2c85438f13",
+        "size": 10091716
       },
       "upm-shim": {
-        "digest": "a4c59fe175fd13cbe11b09a3b837bbe73b4d8db03961c9da9d5e7b0db8b0c863",
-        "size": 1264880
+        "digest": "c9574e85bfeecccde6484fa048bb005b4e5d11687b03f28edb2a05ae7a914ea6",
+        "size": 1576456
       },
       "uvm": {
-        "digest": "316ddf5c8780a777db84841ee935ed7d140c5ec59186214f149d8d3ef9dbab49",
-        "size": 6320412
+        "digest": "454f75d2d8120be8a6a030a6b03276073ee14ed56d1c50bf4d86d876c373ceea",
+        "size": 6366284
       },
       "uwe": {
-        "digest": "4d3432edfc3014b7ead7625841974c9abe0571728bc1d2c143029e3163425751",
-        "size": 15976588
+        "digest": "037e709c01ae78d313a70a3d498635598c329e61e9aef7d0e9654cabead1702d",
+        "size": 15598972
       },
       "uwe-shim": {
-        "digest": "2dc8260a97d8f960dd57c107ec64fc3e800add263ad61fbca8de9aea51576163",
-        "size": 1264880
+        "digest": "33620b6e43ea34438bd3b3c1715a1c6fb4a46a30c08b73a9b50e2fa5156e771f",
+        "size": 1576456
       }
     }
-  }
+  },
+  "versions": []
 }
