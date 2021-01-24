@@ -1,27 +1,27 @@
 {
   "latest": {
-    "version": "0.44.0",
-    "published": "2021-01-21T13:41:19.889124870Z",
+    "version": "0.44.1",
+    "published": "2021-01-24T02:59:43.698877861Z",
     "linux": {
       "upm": {
-        "digest": "e6790df1a98e3a606ba4571da5ce5ff2d918d448a93cb2ffaee3cc0621a2f9a8",
-        "size": 11721664
+        "digest": "13de062f1fdaec1fb8a5740183b9ea5c70f23e8adbd2a47d04da7a03cf9feb0f",
+        "size": 11721888
       },
       "upm-shim": {
-        "digest": "06cbb8c6e36ae181d2a29ae01a1cb971364aa620b094a5a15c2c355c50c28a97",
-        "size": 1926376
+        "digest": "033c317d634624391cd1f520ac461e0d005b294f5c4fb792ad0238c173f2bbb7",
+        "size": 1927048
       },
       "uvm": {
-        "digest": "d226413ad74228b9dd645403aad29bf1a164d7b5f9446b1ab5564a3d036b34c1",
-        "size": 7690912
+        "digest": "3612f14e5013b14be1df05dfa0753bd4f35c119e898e80601ee4bbd0415854d0",
+        "size": 7699264
       },
       "uwe": {
-        "digest": "4504cdd1fa76ec97ac62e38c0fe9080638180c46bd45ba482f72a40450fcc44c",
-        "size": 17831808
+        "digest": "bf4e9d262224e2559ce75578d5f6efde3454833075967583caaf4c2e0d3834e0",
+        "size": 17832032
       },
       "uwe-shim": {
-        "digest": "b14f73e1c34dd2fea47f776879705276bfd1ef61ad862fc2781c611d074b8918",
-        "size": 1926376
+        "digest": "9ef266a78e2669c477382da403cee4491a491b6b09c6bacca1e19487544f529b",
+        "size": 1927048
       }
     },
     "macos": {
@@ -47,5 +47,54 @@
       }
     }
   },
-  "versions": []
+  "versions": [
+    {
+      "version": "0.44.0",
+      "published": "2021-01-21T13:41:19.889124870Z",
+      "linux": {
+        "upm": {
+          "digest": "e6790df1a98e3a606ba4571da5ce5ff2d918d448a93cb2ffaee3cc0621a2f9a8",
+          "size": 11721664
+        },
+        "upm-shim": {
+          "digest": "06cbb8c6e36ae181d2a29ae01a1cb971364aa620b094a5a15c2c355c50c28a97",
+          "size": 1926376
+        },
+        "uvm": {
+          "digest": "d226413ad74228b9dd645403aad29bf1a164d7b5f9446b1ab5564a3d036b34c1",
+          "size": 7690912
+        },
+        "uwe": {
+          "digest": "4504cdd1fa76ec97ac62e38c0fe9080638180c46bd45ba482f72a40450fcc44c",
+          "size": 17831808
+        },
+        "uwe-shim": {
+          "digest": "b14f73e1c34dd2fea47f776879705276bfd1ef61ad862fc2781c611d074b8918",
+          "size": 1926376
+        }
+      },
+      "macos": {
+        "upm": {
+          "digest": "0ee7931f4cefecd4545aeee3ebcc90ab74dce03336870d138ed57f2c85438f13",
+          "size": 10091716
+        },
+        "upm-shim": {
+          "digest": "c9574e85bfeecccde6484fa048bb005b4e5d11687b03f28edb2a05ae7a914ea6",
+          "size": 1576456
+        },
+        "uvm": {
+          "digest": "454f75d2d8120be8a6a030a6b03276073ee14ed56d1c50bf4d86d876c373ceea",
+          "size": 6366284
+        },
+        "uwe": {
+          "digest": "037e709c01ae78d313a70a3d498635598c329e61e9aef7d0e9654cabead1702d",
+          "size": 15598972
+        },
+        "uwe-shim": {
+          "digest": "33620b6e43ea34438bd3b3c1715a1c6fb4a46a30c08b73a9b50e2fa5156e771f",
+          "size": 1576456
+        }
+      }
+    }
+  ]
 }
