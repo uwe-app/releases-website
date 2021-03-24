@@ -1,33 +1,44 @@
 :root {
-  --std-max-width: 760px;
+  --std-max-width: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 main > header {
-  padding: 2em 0;
+  display: flex;
+  align-items: center;
+  height: var(--uwe-header-height);
+  background: var(--std-background);
+  filter: drop-shadow(0px 1px 0px var(--uwe-header-shadow-color));
+  margin-bottom: var(--uwe-gutter-x-large);
 }
 
-details {
-  margin-bottom: 1em;
+article {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 footer {
   text-align: center;
 }
 
-pre {
-  margin-top: 0;
+.platform {
+  margin-bottom: var(--uwe-gutter-regular);
 }
 
 .binary {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   height: 3em;
 }
 
 .binary > :first-child {
   min-width: 6em;
   flex: 0;
-  height: 36px;
 }
 
 .binary > :first-child > * {
@@ -36,4 +47,10 @@ pre {
 
 .binary > :first-child > small {
   font-size: 0.8em;
+}
+
+@media screen and (max-width: 640px) {
+  main article {
+    padding: 0 var(--uwe-gutter-regular);
+  }
 }

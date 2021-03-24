@@ -1,8 +1,8 @@
 +++
-title = "Software Releases"
+title = "UWE: Software Releases"
 +++
 
-# {{title}}
+# Releases
 
 Software releases for the [UWE][] platform tools.
 
@@ -29,7 +29,7 @@ uvm update
 If you prefer to avoid piping to `sh` then the manual installation steps are shown below; use the URL appropriate for your platform.
 
 * Linux: `https://releases.uwe.app/latest/linux/uvm`.
-* Macos: `https://releases.uwe.app/latest/macos/uvm`.
+* MacOS: `https://releases.uwe.app/latest/macos/uvm`.
 
 ```
 mkdir -p $HOME/.uwe/bin && cd $HOME/.uwe/bin
@@ -47,7 +47,7 @@ To compute the digest for a file on Linux use `sha3sum`, for debian-based distri
 sha3sum -a 256 uvm
 ```
 
-On MacOs use `shasum`:
+On MacOS use `shasum`:
 
 ```
 shasum -a 256 uvm
